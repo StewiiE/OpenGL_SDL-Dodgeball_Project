@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GameScreenLevel1">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>RAQAKARAAgAlAAABCAAIAABAAgAEAABUEBAAEAAAAAg=</HashCode>
+      <FileName>GameScreenLevel1.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_ClockNumbers" />
+      <Field Name="m_ClockHourHand" />
+      <Field Name="m_ClockMinuteHand" />
+      <Field Name="m_p3DSModel" />
+      <Field Name="pyramid" />
+      <Field Name="camera" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameScreen">
+    <Position X="0.5" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAAIAAAAAAAAAAAIAABAAAAAAAAA=</HashCode>
+      <FileName>GameScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera">
+    <Position X="17.25" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQCBgABAQAAAQAIQAAAIAAABAgAAEAABBAAAggAgAE=</HashCode>
+      <FileName>camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object3DS">
+    <Position X="6" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>CAQEEAAAACAAACAACAAIAAAAAAAAAAAAAFAAAAAAAkA=</HashCode>
+      <FileName>object3DS.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mPosition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Pyramid">
+    <Position X="6" Y="4.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAwAAAAAAAAhAAIAIAAAAAAAAAgAEAAQAAQAAAAAA=</HashCode>
+      <FileName>Pyramid.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="indexedVertices" />
+      <Field Name="normals" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Texture2D">
+    <Position X="12.75" Y="6" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAAAAAgABAIBAAAAAAAAAAAEAEACA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScreenManager">
+    <Position X="5.25" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAABAAAAAAAAAAAAAAAABAQAAAAAAQ=</HashCode>
+      <FileName>GameScreenManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mCurrentScreen" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="Vertex3D">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Commons.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector3D">
+    <Position X="11.75" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Commons.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

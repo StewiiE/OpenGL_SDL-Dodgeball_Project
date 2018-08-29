@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Camera">
+    <Position X="15.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQCAgAAAQAAAAAAQAAAIAAABAAAAEAAABAAAgAAgAA=</HashCode>
+      <FileName>camera.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="forward" />
+      <Field Name="position" />
+      <Field Name="right" />
+      <Field Name="up" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameScreenLevel2">
+    <Position X="7.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAoIYAAgAAAAAhQAAMAABAgAAAJAAEEFQAAUAwAAg=</HashCode>
+      <FileName>GameScreenLevel2.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="theBalls" />
+      <Field Name="theCubes" />
+      <Field Name="m_Floor" />
+      <Field Name="m_Floor2" />
+      <Field Name="m_Player" />
+      <Field Name="screenManager" />
+      <Field Name="camera" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MenuScreen">
+    <Position X="2.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAICBAAAAAAABAAAAAgAAAgAAAAAAABAAAkAAAAA=</HashCode>
+      <FileName>MenuScreen.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mInstructions" />
+      <Field Name="mMenuItems" />
+      <Field Name="screenManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Player">
+    <Position X="1.75" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAQEBgAAASBAAQACAAAIIAACIACAAEAABFAAAwAAwhk=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="position" />
+      <Field Name="right" />
+      <Field Name="up" />
+      <Field Name="mPosition" />
+      <Field Name="forward" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameScreen">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAAIAAAAAAAAAAAIAABAAAAAAAAA=</HashCode>
+      <FileName>GameScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScreenLevel1">
+    <Position X="4.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAQBqARAAgAgAAAgCAAMAABAABAAJAAUEBYAAUAgAAg=</HashCode>
+      <FileName>GameScreenLevel1.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="camera" />
+      <Field Name="m_Court1" />
+      <Field Name="m_Court2" />
+      <Field Name="m_Player" />
+      <Field Name="screenManager" />
+      <Field Name="theBalls" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameScreenManager">
+    <Position X="12.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAABAAAAAAAAAAAAAAAABAQAAAAAAQ=</HashCode>
+      <FileName>GameScreenManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mCurrentScreen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Object3DS">
+    <Position X="9.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAQEFgAAASAAAQAACAAIIAAAAAAAAEAABFAAAgAAgkE=</HashCode>
+      <FileName>object3DS.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="forward" />
+      <Field Name="mPosition" />
+      <Field Name="position" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinScreen">
+    <Position X="12.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAICAAAAABAABAAAAAgAAAAAAAAAAABAAAkAAACA=</HashCode>
+      <FileName>WinScreen.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mInstructions" />
+      <Field Name="mMenuItems" />
+      <Field Name="screenManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;">
+    <Position X="17.75" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::difference_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Mybase" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Myt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::allocator_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::size_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Alty" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IUoEEIEqCLBMUEBAAKMIAgISAgUESAIAxQMwgwAEQgI=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Vector3D">
+    <Position X="2" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Commons.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
